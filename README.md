@@ -1,4 +1,4 @@
-# CDC (cdc)
+# CDC
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,174 +66,139 @@
 
 The US Centers for Disease Control and Prevention (CDC) provides a suite of public APIs for accessing disease surveillance data, vaccination rates, health statistics, environmental public health tracking, and public health datasets. Key offerings include the CDC WONDER API for querying mortality and disease databases, the Open Data API powered by Socrata for thousands of datasets across categories such as flu vaccinations, STDs, injury, and NCHS statistics, the Environmental Public Health Tracking Network API for environmental health data, and the PHIN VADS vocabulary service for public health terminology.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/apis.yml)
+**Areas:** Public Health · Disease Surveillance · Vaccination · Health Statistics · Government · Open Data · Environmental Health · Mortality · CDC WONDER · Epidemiology · Federal Government · Healthcare
 
-## Scope
+## CDC on APIs.io
 
-- **Type:** Index
+Everything profiled for CDC is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cdc-gov/](https://apis.io/providers/cdc-gov/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (16)
 
-- Public Health
-- Disease Surveillance
-- Vaccination
-- Health Statistics
-- Government
-- Open Data
-- Environmental Health
-- Mortality
-- CDC WONDER
+- [CDC WONDER API](https://apis.io/apis/cdc-gov/cdc-wonder-api/) — The CDC WONDER (Wide-ranging Online Data for Epidemiologic Research) API enables automated data queries in XML format over HTTP. Supports access to online…
+- [CDC Environmental Public Health Tracking Network API](https://apis.io/apis/cdc-gov/cdc-environmental-public-health-tracking-network-api/) — Allows querying of data from the CDC National Environmental Public Health Tracking Network. Returns JSON-formatted responses covering environmental health…
+- [CDC Content Syndication API](https://apis.io/apis/cdc-gov/cdc-content-syndication-api/) — Enables CDC to offer web content to other sites and applications. Provides structured access to CDC health content including articles, health topics, media,…
+- [PHIN VADS API](https://apis.io/apis/cdc-gov/phin-vads-api/) — The Public Health Information Network Vocabulary Access and Distribution System (PHIN VADS) is a web-based enterprise vocabulary system for accessing,…
+- [CDC PLACES / 500 Cities API](https://apis.io/apis/cdc-gov/cdc-places-api/) — PLACES (Population Level Analysis and Community Estimates) provides model-based small-area estimates for chronic disease risk factors, health outcomes, and…
+- [CDC NNDSS / MMWR Socrata Data](https://apis.io/apis/cdc-gov/cdc-tb-nndss-socrata/) — The National Notifiable Diseases Surveillance System (NNDSS) and Morbidity and Mortality Weekly Report (MMWR) tables are published as Socrata datasets on…
+- [CDC App Notifications API](https://apis.io/apis/cdc-gov/cdc-gov-app-notifications-api/) — The app-notifications API from CDC — 1 operation(s) for app-notifications.
+- [CDC Code Systems API](https://apis.io/apis/cdc-gov/cdc-gov-code-systems-api/) — The code-systems API from CDC — 1 operation(s) for code-systems.
+- [CDC Conditions API](https://apis.io/apis/cdc-gov/cdc-gov-conditions-api/) — The conditions API from CDC — 2 operation(s) for conditions.
+- [CDC Configurations API](https://apis.io/apis/cdc-gov/cdc-gov-configurations-api/) — The configurations API from CDC — 15 operation(s) for configurations.
+- [CDC Events API](https://apis.io/apis/cdc-gov/cdc-gov-events-api/) — The events API from CDC — 2 operation(s) for events.
+- [CDC Query API](https://apis.io/apis/cdc-gov/cdc-gov-query-api/) — The Query API from CDC — 1 operation(s) for query.
+- [CDC Query Connector API OpenAPI 3.0 API](https://apis.io/apis/cdc-gov/cdc-gov-query-connector-api-openapi-3-0-api/) — The Query Connector API OpenAPI 3.0 API from CDC — 1 operation(s) for query connector api openapi 3.0.
+- [CDC Releases API](https://apis.io/apis/cdc-gov/cdc-gov-releases-api/) — The releases API from CDC — 1 operation(s) for releases.
+- [CDC Simulator API](https://apis.io/apis/cdc-gov/cdc-gov-simulator-api/) — The simulator API from CDC — 3 operation(s) for simulator.
+- [CDC User API](https://apis.io/apis/cdc-gov/cdc-gov-user-api/) — The user API from CDC — 1 operation(s) for user.
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Agentic access (1)
 
-### CDC Open Data API
+Which operations an agent can call, which act, and which need a human in the loop.
 
-Repository of all available CDC datasets accessible via the Socrata Open Data API (SODA). Covers categories including administrative data, biomonitoring, child vaccinations, flu vaccinations, health statistics, injury and violence, NCHS data, NNDSS reportable disease surveillance, pregnancy and vaccination, STDs, smoking and tobacco use, traumatic brain injury, and web metrics. Supports JSON, XML, and CSV response formats.
+- [Cdc Agentic Access](https://apis.io/agentic-access/cdc-gov/cdc-agentic-access/)
 
-- **Human URL:** [https://data.cdc.gov](https://data.cdc.gov)
-- **Base URL:** `https://data.cdc.gov/resource`
+#### Collections (10)
 
-#### Tags
+Postman and Open Collection request collections.
 
-- Open Data
-- Health Statistics
-- Disease Surveillance
-- Vaccination
+- [DIBBs eCR Refiner app-notifications API](https://apis.io/collections/cdc-gov/open-cdc-app-notifications-api/)
+- [DIBBs eCR Refiner app-notifications code-systems API](https://apis.io/collections/cdc-gov/open-cdc-code-systems-api/)
+- [DIBBs eCR Refiner app-notifications conditions API](https://apis.io/collections/cdc-gov/open-cdc-conditions-api/)
+- [DIBBs eCR Refiner app-notifications configurations API](https://apis.io/collections/cdc-gov/open-cdc-configurations-api/)
+- [DIBBs eCR Refiner app-notifications events API](https://apis.io/collections/cdc-gov/open-cdc-events-api/)
+- [DIBBs eCR Refiner app-notifications Query API](https://apis.io/collections/cdc-gov/open-cdc-query-api/)
+- [DIBBs eCR Refiner app-notifications Query Connector API OpenAPI 3.0 API](https://apis.io/collections/cdc-gov/open-cdc-query-connector-api-openapi-3-0-api/)
+- [DIBBs eCR Refiner app-notifications releases API](https://apis.io/collections/cdc-gov/open-cdc-releases-api/)
+- [DIBBs eCR Refiner app-notifications simulator API](https://apis.io/collections/cdc-gov/open-cdc-simulator-api/)
+- [DIBBs eCR Refiner app-notifications user API](https://apis.io/collections/cdc-gov/open-cdc-user-api/)
 
-#### Properties
+#### Security (1)
 
-- [Documentation](https://dev.socrata.com/docs/endpoints.html)
-- [OpenAPI](https://data.cdc.gov/api/docs) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
+Authentication, trust centre, and vulnerability disclosure.
 
-### CDC WONDER API
+- [Cdc Domain Security](https://apis.io/security/cdc-gov/cdc-domain-security/)
 
-The CDC WONDER (Wide-ranging Online Data for Epidemiologic Research) API enables automated data queries in XML format over HTTP. Supports access to online databases covering mortality, natality, cancer statistics, AIDS/HIV, tuberculosis, sexually transmitted diseases, and environmental health data. Requests are HTTP POST to the WONDER controller endpoint with XML parameters; responses are returned as XML.
+#### Plans and pricing (1)
 
-- **Human URL:** [https://wonder.cdc.gov](https://wonder.cdc.gov)
-- **Base URL:** `https://wonder.cdc.gov/controller/datarequest`
+Published plans, tiers and prices.
 
-#### Tags
+- [Plans](https://apis.io/plans/cdc-gov/plans/)
 
-- Disease Surveillance
-- Mortality
-- Epidemiology
-- Public Health
+#### Rate limits (1)
 
-#### Properties
+Published request limits.
 
-- [Documentation](https://wonder.cdc.gov/wonder/help/WONDER-API.html)
+- [Rate Limits](https://apis.io/rate-limits/cdc-gov/rate-limits/)
 
-### CDC Environmental Public Health Tracking Network API
+#### FinOps (1)
 
-Allows querying of data from the CDC National Environmental Public Health Tracking Network. Returns JSON-formatted responses covering environmental health indicators such as air quality, water quality, climate data, and their associations with health outcomes across the United States.
+What the API costs to run, by operation.
 
-- **Human URL:** [https://ephtracking.cdc.gov](https://ephtracking.cdc.gov)
-- **Base URL:** `https://ephtracking.cdc.gov/apigateway/api/v1`
+- [Finops](https://apis.io/finops/cdc-gov/finops/)
 
-#### Tags
+## Where to find this API
 
-- Environmental Health
-- Air Quality
-- Water Quality
-- Climate
-- Public Health
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
-#### Properties
+- [Website](https://www.cdc.gov/)
+- [Documentation](https://tools.cdc.gov/api/docs/info.aspx)
+- [API reference](https://wonder.cdc.gov/wonder/help/wonder-api.html)
+- [Terms of service](https://www.cdc.gov/other/policies.html)
+- [Privacy policy](https://www.cdc.gov/other/privacy.html)
 
-- [Documentation](https://ephtracking.cdc.gov/apihelp)
+## API Evangelist rating
 
-### CDC Content Syndication API
+**Kin Score 31.3** — thin · rubric 0.24.0 · scored 2026-10-17
 
-Enables CDC to offer web content to other sites and applications. Provides structured access to CDC health content including articles, health topics, media, and tools in JSON and XML formats for syndication to third-party websites and public health information systems.
+| Facet | Score |
+|---|---|
+| Discoverability | 62.5 |
+| Contract quality | 44.8 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 38.1 |
+| Access clarity | 26.3 |
 
-- **Human URL:** [https://tools.cdc.gov/api/docs/info.aspx](https://tools.cdc.gov/api/docs/info.aspx)
-- **Base URL:** `https://tools.cdc.gov/api/v2`
+**Agent readiness 26.2** — agent-aware
 
-#### Tags
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-- Content
-- Health Information
-- Syndication
+**Regulatory alignment 19.6** — Government & Public Sector
 
-#### Properties
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cdc-gov/](https://apis.io/providers/cdc-gov/).
 
-- [Documentation](https://tools.cdc.gov/api/docs/info.aspx#response)
+## How this profile is made
 
-### PHIN VADS API
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
 
-The Public Health Information Network Vocabulary Access and Distribution System (PHIN VADS) is a web-based enterprise vocabulary system for accessing, searching, and distributing vocabularies used in public health and clinical care practice. Provides REST access to standardized code sets and value sets used in public health reporting.
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CDC: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
 
-- **Human URL:** [https://phinvads.cdc.gov](https://phinvads.cdc.gov)
-- **Base URL:** `https://phinvads.cdc.gov/vocabService/v2`
+## Open an issue
 
-#### Tags
-
-- Vocabulary
-- Terminology
-- Standards
-- Public Health
-
-#### Properties
-
-- [Documentation](https://phinvads.cdc.gov/vads/developersGuide.action)
-
-### DIBBs eCR Refiner API
-
-CDC DIBBS (Data Integration Building Blocks) electronic Case Reporting (eCR) Refiner API for managing disease reporting configurations with customizable code sets. Supports creating and managing reportable condition configurations, custom code management, eICR document refinement and simulation, jurisdiction audit logs, and release tracking.
-
-- **Human URL:** [https://github.com/CDCgov/dibbs-ecr-refiner](https://github.com/CDCgov/dibbs-ecr-refiner)
-- **Base URL:** `https://github.com/CDCgov/dibbs-ecr-refiner`
-
-#### Tags
-
-- Electronic Case Reporting
-- eCR
-- Disease Reporting
-- Public Health
-- DIBBS
-
-#### Properties
-
-- [Documentation](https://github.com/CDCgov/dibbs-ecr-refiner)
-- [OpenAPI](https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/dibbs-ecr-refiner-openapi.json) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-
-### DIBBs Query Connector API
-
-CDC DIBBS (Data Integration Building Blocks) Query Connector API for executing healthcare data queries against FHIR servers using patient identifiers. Accepts FHIR patient resources or HL7v2 messages and returns matching FHIR resources from target FHIR servers.
-
-- **Human URL:** [https://github.com/CDCgov/dibbs-query-connector](https://github.com/CDCgov/dibbs-query-connector)
-- **Base URL:** `https://github.com/CDCgov/dibbs-query-connector`
-
-#### Tags
-
-- FHIR
-- HL7
-- Healthcare Data
-- Patient Data
-- Public Health
-- DIBBS
-
-#### Properties
-
-- [Documentation](https://github.com/CDCgov/dibbs-query-connector)
-- [OpenAPI](https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/openapi/dibbs-query-connector-openapi.yaml) — [OpenAPI Specification](https://spec.openapis.org/oas/latest.html)
-
-## Common Properties
-
-- [Portal](https://open.cdc.gov/apis.html)
-- [Git Hub](https://github.com/CDCgov)
-- [Authentication](https://dev.socrata.com/docs/app-tokens.html)
-- [Terms of Service](https://www.cdc.gov/other/policies.html)
-- [Privacy Policy](https://www.cdc.gov/other/privacy.html)
-- [Licensing](https://www.cdc.gov/other/policies.html#linking)
-- [Json L D](https://raw.githubusercontent.com/api-evangelist/cdc/refs/heads/main/json-ld/apis-jsonld.json) — [JSON-LD](https://www.w3.org/TR/json-ld11/)
-
-## Maintainers
-
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cdc-gov/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
